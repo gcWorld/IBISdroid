@@ -1,3 +1,4 @@
 # Build and Release Folders
 old/
 *.command
+*.DS_Store
