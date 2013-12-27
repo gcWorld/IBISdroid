@@ -1,2 +1,4 @@
 script
-  - zip -r IBISdroid-2-plugin.ams ams
+    - cd ams
+    - zip -r ../release/IBISdroid-2-plugin.ams plugins am_setup_info.txt
+    - zip -r ../release/IBISdroid-2-plugin.zip plugins
