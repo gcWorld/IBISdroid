@@ -1,4 +1,0 @@
-script
-    - cd ams
-    - zip -r ../release/IBISdroid-2-plugin.ams plugins am_setup_info.txt
-    - zip -r ../release/IBISdroid-2-plugin.zip plugins
