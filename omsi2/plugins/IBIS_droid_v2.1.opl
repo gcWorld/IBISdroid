@@ -2,10 +2,10 @@
 // www.gcmods.de
 
 [dll]
-IBIS_droid_v2.0.dll
+IBIS_droid_2_v2.dll
 
 [varlist]
-29
+30
 IBIS_Route
 IBIS_TerminusCode
 IBIS_Linie_Complex
@@ -21,7 +21,6 @@ Cabinair_Temp
 humans_count
 cockpit_uhr_sek
 haltewunschlampe
-Weather_Temperature
 AI_Blinker_L
 AI_Blinker_R
 AI_Light
@@ -35,9 +34,22 @@ PAX_Exit0_Open
 PAX_Exit1_Open
 PAX_Exit2_Open
 PAX_Exit3_Open
+GivenTicket
+
+[stringvarlist]
+5
+IBIS_terminus_name
+act_busstop
+IBIS_Delay_min
+IBIS_Delay_sec
+IBIS_Delay_state
+
+[systemvarlist]
+1
+Weather_Temperature
 
 [triggers]
-43
+44
 IBIS_setmode_route
 IBIS_setmode_linie_kurs
 IBIS_setmode_ziel
@@ -71,8 +83,8 @@ cashdesk_changer_0_05
 ticketprinter_button_cancel
 ticketprinter_button_enter
 ticketprinter_button_ticket_0
-ticketprinter_button_ticket_2
 ticketprinter_button_ticket_1
+ticketprinter_button_ticket_2
 ticketprinter_getticket
 kw_standlicht_toggle
 kw_scheinwerfer_toggle
@@ -81,3 +93,4 @@ cp_licht_oberdeck_toggle
 bus_doorfront0
 bus_doorfront1
 bus_doorfront2
+change_take

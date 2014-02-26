@@ -1,4 +1,5 @@
 # Build and Release Folders
 old/
+omsi2dev/
 *.command
 *.DS_Store
